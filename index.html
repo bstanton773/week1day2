@@ -1,68 +1,69 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Coding Temple Portfolio</title>
+    <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="./static/css/main.css">
+    
+    <!-- INTERNAL STYLESHEET  -->
+    <!-- <style>
+        #myFirstDiv{
+            color: red;
+        }
+        div#mySecondDiv.mySecondContainer{
+            color: brown;
+        }
+        #mySecondDiv.mySecondContainer{
+            color: green;
+        }
+        .mySecondContainer{
+            color: blue;
+        }
+    </style> -->
+
   </head>
   <body>
-      <div class="row">
-          <div class="col-md-4"></div>
-          <div class="col-md-4">
-          <h1 class="text-center">Brian Stanton</h1>
-        </div>
-          <div class="col-md-4"></div>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-info bg-info">
-        <a class="navbar-brand" href="#">Coding Temple</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Learn HTML <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Learn CSS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Other Page</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav m1-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
 
-      <div class="container-fluid">
-        <p class="text-right text-danger">This is my paragraph</p>
+    <!-- INLINE STYLING -->
+    <!-- <div id="myFirstDiv" class="myFirstContainer" style="color: purple">This is my First container</div> -->
+    <div id="myFirstDiv" class="myFirstContainer">This is my First container</div>
+
+    <!-- #mySecondDiv.mySecondContainer  -->
+    <div class="mySecondContainer" id="mySecondDiv">This is my Second container</div>
+
+    <!-- #myThirdDiv.myThirdContainer{This is my Third Container} -->
+    <div id="myThirdDiv" class="myThirdContainer">This is my Third Container</div>
+
+    <!-- h3#myFirstHeader.prettyHeader -->
+    <h3 id="myFirstHeader" class="prettyHeader"></h3>
+
+    <!-- img[src=https://placehold.it/350x250 alt=placeholder class=img-fluid] -->
+    <img src="https://placehold.it/350x250" alt="placeholder" class="img-fluid">
+
+
+      <div class="container">
           <div class="row">
-              <div class="col-md-4">
-                  <span>1 of 3</span>
-                  <img src="./static/images/chicago.jpeg" alt="chicago">
-                  <img src="" alt="">
+              <!-- <div class="col-md-4">
+                  <h1></h1>
               </div>
               <div class="col-md-4">
-                  <span class="text-success float-right">1 of 3</span>
-                  <img src="./static/images/chicago.jpeg" alt="chicago">
+                  <h1>hello</h1>
               </div>
               <div class="col-md-4">
-                  <span>1 of 3</span>
-                  <img src="./static/images/chicago.jpeg" alt="chicago">
+                  <h1></h1>
+              </div> -->
+              <div class="col-md-4 offset-md-4 text-center">
+                  <div>This is some text</div>
+                  <button id="myBtn" class="btn btn-block btn-primary">This is a button</button>
               </div>
           </div>
-          
       </div>
-      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -1,0 +1,16 @@
+#myFirstDiv{
+    color: red;
+}
+div#mySecondDiv.mySecondContainer{
+    color: brown;
+}
+#mySecondDiv.mySecondContainer{
+    color: green;
+}
+.mySecondContainer{
+    color: blue;
+}
+
+#myBtn{
+    background-image: linear-gradient(to right, red, blue);
+}
